@@ -15,7 +15,7 @@ El estudio propone y valida un protocolo de descomposición de tres puntos que a
 
 El repositorio está organizado de la siguiente manera:
 
-* main.tex: Código fuente principal del artículo científico en LaTeX (Formato IEEE Conference).
+* escasez_muestral_y_ruido_nisq_qsvc.tex: Código fuente principal del artículo científico en LaTeX (Formato IEEE Conference).
 * escasez_muestral_y_ruido_nisq_qsvc.pdf: Versión compilada y terminada del artículo científico en formato PDF.
 * contenido/:
   * bibliografia.bib: Base de datos de referencias bibliográficas en formato BibTeX.
@@ -55,10 +55,10 @@ service = QiskitRuntimeService(channel="ibm_quantum", token="TU_API_TOKEN_AQUI")
 Si realizas modificaciones al texto en LaTeX y deseas recompilar el PDF, ejecuta la siguiente secuencia de comandos en tu terminal local:
 
 ```bash
-pdflatex main.tex
-bibtex main
-pdflatex main.tex
-pdflatex main.tex
+pdflatex escasez_muestral_y_ruido_nisq_qsvc.tex
+bibtex escasez_muestral_y_ruido_nisq_qsvc
+pdflatex escasez_muestral_y_ruido_nisq_qsvc.tex
+pdflatex escasez_muestral_y_ruido_nisq_qsvc.tex
 ```
 
 ### 2. Réplica de los Experimentos de QML
