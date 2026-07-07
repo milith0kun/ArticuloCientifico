@@ -16,6 +16,7 @@ El estudio propone y valida un protocolo de descomposición de tres puntos que a
 El repositorio está organizado de la siguiente manera:
 
 * main.tex: Código fuente principal del artículo científico en LaTeX (Formato IEEE Conference).
+* escasez_muestral_y_ruido_nisq_qsvc.pdf: Versión compilada y terminada del artículo científico en formato PDF.
 * contenido/:
   * bibliografia.bib: Base de datos de referencias bibliográficas en formato BibTeX.
 * Colab/:
