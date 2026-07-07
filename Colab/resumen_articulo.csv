@@ -1,0 +1,12 @@
+Tipo,Modelo,Accuracy,Entorno,Accuracy (%)
+Clasico,SVM-RBF (Iris),0.9333333333333333,Local,93.33
+Clasico,MLP (Iris),0.9333333333333333,Local,93.33
+Clasico,KNN (Iris),0.9333333333333333,Local,93.33
+Sim.,"VQC (Iris, mejor semilla=123)",0.6,Statevector,60.0
+Sim.,QSVC (Iris completo),0.7777777777777778,Statevector,77.78
+Sim.,QSVC (subset 13/9),0.3333333333333333,Statevector,33.33
+HW,QSVC sin mitigacion,0.1111111111111111,ibm_fez,11.11
+HW,QSVC + TREX,0.1111111111111111,ibm_fez,11.11
+Clasico,SVM-RBF (MNIST),1.0,Local,100.0
+Sim.,QSVC (MNIST),0.7777777777777778,Statevector,77.78
+HW,QSVC (MNIST),0.8888888888888888,ibm_fez,88.89

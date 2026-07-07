@@ -1,0 +1,32 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.run.xml
+*.bcf
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+checkpoints/
+Colab/checkpoints/
+
+# Python virtual environments & cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+
+# Temp files
+compile1.log
+image.png
+main.pdf
+ClaudeInvestigacion.md
+
